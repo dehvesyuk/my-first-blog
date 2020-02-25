@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div>
     <h1><a href="/">Dima's blog</a></h1>
 </div>
@@ -9,3 +10,19 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
+=======
+<html>
+    <head>
+        <title>Dima's blog</title>
+    </head>
+    <body>
+        {% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+		{% endfor %}
+    </body>
+</html>
+>>>>>>> 4965e6431a33a8d43ab50b239391aa37aab20c92
