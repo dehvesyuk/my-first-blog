@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from  mysite.urls import urlpatterns
 
 
 class Post(models.Model):
